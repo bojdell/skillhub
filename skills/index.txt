@@ -1,0 +1,27 @@
+WIP
+TODO: turn these into dir paths and small script to generate index file
+
+software_engineer
+clarify_scope
+write_code
+run_code
+debug
+deploy_code
+
+ai researcher
+
+doctor
+
+lawyer
+
+parent
+
+coach
+
+therapist
+
+
+agent loop
+* select role
+* select skill
+* take action
