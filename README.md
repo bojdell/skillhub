@@ -1,6 +1,8 @@
 # skillhub
 
-status: rough draft/work in progress
+status: rough draft/work in progress. contributions welcome
+
+may duplicate some content in other open source projs, but attempting to learn in public. see TODOs below
 
 ## overview
 
@@ -116,12 +118,13 @@ nassim taleb - world works by distilling heuristics
 
 ## TODOs
 
-- market research: how much of this exists already in other projects such as langchain. how much will be siloed into separate repos vs. single
-- enable agents to run programmatically (act)
-- enable agents to provide feedback programmatically (learn)
-- tests/simulations
-- dev tools to improve ergonomics
-- docs
+- [x] send around for early feedback
+- [ ] market research: how much of this exists already in other projects such as langchain. how much will be siloed into separate repos (eg https://github.com/smol-ai/developer) vs. single (this). need to build some concrete impls
+- [ ] enable agents to run programmatically (act)
+- [ ] enable agents to provide feedback programmatically (learn)
+- [ ] tests/simulations
+- [ ] dev tools to improve ergonomics
+- [ ] docs
 
 ## food for thought
 
