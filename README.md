@@ -27,6 +27,7 @@ if AI is just advanced pattern recognition, these are the most valuable patterns
 </div>
 
 ## expert systems
+
 https://en.wikipedia.org/wiki/Expert_system
 
 ironically, this may herald a partial reversion to "expert systems", which got much attention early in the early AI boom of the 1950s
@@ -37,12 +38,22 @@ from the beginning, if we had an AI, what would be the most valuable thing we co
 
 how are its skills defined? in code, as algorithms
 
-it's no coincidence successful people talk about decision making algorithms
+### experts
+
+it's no coincidence experts talk about decision making algorithms
+
 whatever your personal opinions of these people are, the idea comes up repeatedly
-https://www.principles.com/principles/be876591-d132-4896-9c44-ea519bad9f1f/
+
 they have a bunch of rules like "5/25" rule
 
-why LLMs unlock expert systems
+https://www.principles.com/principles/be876591-d132-4896-9c44-ea519bad9f1f/
+
+https://www.moneycontrol.com/news/business/markets/warren-buffett-uses-algorithms-while-picking-stocks-but-he-trained-his-mind-for-that-3730691.html
+
+https://www.inc.com/sean-kim/how-warren-buffett-and-jeff-bezos-make-smarter-decisions.html
+
+### why LLMs unlock expert systems
+
 main limitations to expert systems (https://en.wikipedia.org/wiki/Expert_system)
 
 > Expert systems have superficial knowledge, and a simple task can potentially become computationally expensive.
@@ -65,10 +76,18 @@ These problems are real, but they are not unique to AI. They apply to every new 
 
 See point 2 above.
 
+### human brain
+
 this may be how the human brain works as well. perhaps LLMs are our frontal lobe and these other components don't need to be built into the same NN (at least for now), and they can instead be separate software modules. would be consistent with the many theories that humans feel they multiple "selves" inside at various times
-https://drive.google.com/file/d/1RFxtgLv0q_tKmfzxWG0IOAL8Bre4Id6B/view
+
 https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow
+
 https://en.wikipedia.org/wiki/Internal_Family_Systems_Model
+
+<div align="center">
+<img src="https://github.com/bojdell/skillhub/assets/3486165/e25f114b-6db2-4abb-a0ac-bddbf5efabad" width=600 />
+  <div align="center">https://drive.google.com/file/d/1RFxtgLv0q_tKmfzxWG0IOAL8Bre4Id6B/view</div>
+</div>
 
 ## design (WIP)
 ### primitives (TODO)
