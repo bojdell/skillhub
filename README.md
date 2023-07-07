@@ -2,23 +2,39 @@
 
 status: rough draft/work in progress
 
+## overview
+
 goal is to distill high-value heuristics/mental models/principles for any scenario
+
 can be manual, but ideally is increasingly automated. an external store for autonomous agents
+
 the valuable core of an expert lies in their mental models/heuristics which are honed through much experience
+
 these mental models can be concisely defined and refined
+
 if AI is just advanced pattern recognition, these are the most valuable patterns it can help us distill and hone (and we don't need to wait for it to get started)
 
-minecraft screenshot
-https://voyager.minedojo.org/
+<div align="center">
+<img src="https://github.com/bojdell/skillhub/assets/3486165/b5edf9d8-4c28-4bac-a375-78e92960b33d" width=600 />
+  <div align="center">https://voyager.minedojo.org/</div>
+</div>
 
-swyx screenshot/blog post
-https://twitter.com/swyx/status/1668679998566461440
+<div align="center">
+<img src="https://github.com/bojdell/skillhub/assets/3486165/0663a185-38bd-496d-8f6d-e588290707ae" width=600 />
+  <div align="center">https://twitter.com/swyx/status/1668679998566461440</div>
+</div>
 
+## expert systems
 https://en.wikipedia.org/wiki/Expert_system
+
 ironically, this may herald a partial reversion to "expert systems", which got much attention early in the early AI boom of the 1950s
+
 yet it's also fitting, there are benefits to expert systems that LLMs can't match. indeed, they complement each other in many areas
+
 from the beginning, if we had an AI, what would be the most valuable thing we could point it at learning? improving its own skills
+
 how are its skills defined? in code, as algorithms
+
 it's no coincidence successful people talk about decision making algorithms
 whatever your personal opinions of these people are, the idea comes up repeatedly
 https://www.principles.com/principles/be876591-d132-4896-9c44-ea519bad9f1f/
@@ -52,35 +68,53 @@ https://drive.google.com/file/d/1RFxtgLv0q_tKmfzxWG0IOAL8Bre4Id6B/view
 https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow
 https://en.wikipedia.org/wiki/Internal_Family_Systems_Model
 
-primitves (TODO)
+## design (WIP)
+### primitives (TODO)
+
 context: text description, maybe additional structured metadata
+
 role: text description
+
 action: snippet of code
 
-mappings
+### mappings
+
 context to role (which role is appropriate for this context. an index into actions)
+
 context, role to action (which action is most appropriate for a given context. role becomes appended to context?)
+
 action to context (how likely action is to result in certain context)
 
 we see this emerging from prompt engineering already
-[cite prompt ex]
-also fits in with openai mixture of experts architecture - this can scale to an arbitrary number of experts
-https://twitter.com/swyx/status/1671272883379908608
 
-nice properties
+[cite prompt ex]
+
+also fits in with openai mixture of experts architecture - this can scale to an arbitrary number of experts
+
+
+<div align="center">
+<img width="469" alt="image" src="https://github.com/bojdell/skillhub/assets/3486165/085d84b2-53ea-4570-b9fa-e98d7bf4a9ce">
+  <div align="center">https://twitter.com/soumithchintala/status/1671267150101721090</div>
+</div>
+
+## nice properties
 it seems obviously safe - easily interpretable/editable. it's just a bunch of text files. no downside to collectively refining the prototypical "best" in role
 
-challenges/risks
+## challenges/risks
 do we moderate at all? what if someone puts terrorist or child predator? prob will need some limits for stuff like that, but otherwise let as much be free as possible
 
-appendix
+## appendix
 pmarca says early web was built on text - will be curious coincidence if this can be too
+
 something in semantic information theory, not sure what yet though
 
 david deutsch - everything important about the universe can be understood by a human (heuristics)
+
 nassim taleb - world works by distilling heuristics
 
-TODOs
+<img src="https://github.com/bojdell/skillhub/assets/3486165/a8e52f26-061f-4a21-ba8c-791c83934634" width=600 />
+
+## TODOs
 
 - market research: how much of this exists already in other projects such as langchain. how much will be siloed into separate repos vs. single
 - enable agents to run programmatically (act)
@@ -89,6 +123,6 @@ TODOs
 - dev tools to improve ergonomics
 - docs
 
-food for thought
+## food for thought
 
 - how far can open source community go w/ distilling expert best practices? or will best outcome be achieved by small closed groups of experts?
