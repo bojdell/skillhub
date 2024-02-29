@@ -58,7 +58,7 @@ main limitations to expert systems (https://en.wikipedia.org/wiki/Expert_system)
 
 > Expert systems have superficial knowledge, and a simple task can potentially become computationally expensive.
 
-The language understanding portion of LLMs enables them to describe Since mental models can be described as snippets of code and LLMs can express them as such, these algorithms are no more expensive to run than
+Since mental models can be described as snippets of code and LLMs can express them as such, these algorithms are no more expensive to run than other software programs
 
 > Expert systems require knowledge engineers to input the data, data acquisition is very hard.
 
